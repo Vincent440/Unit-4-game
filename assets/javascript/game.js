@@ -33,7 +33,7 @@ function gameReset() {//FUNCTION TO RESET GAME KEEPING SCORE
   computerScoreChoice();//calls function to generate new random number 19-120
   console.log("reset game")
 
-  console.log(computerScore + " as well as" + crystalValue[0] + crystalValue[1] + crystalValue[2] +crystalValue[3]);
+  console.log(computerScore + " as well as " + crystalValue[0] + " " + crystalValue[1] + " " + crystalValue[2] + " " + crystalValue[3]);
 }
 
 
@@ -45,24 +45,28 @@ function gameReset() {//FUNCTION TO RESET GAME KEEPING SCORE
 
 
     $("#crystal-blue").on("click", function() {
+      gemClicks();
       userTotalScore += crystalValue[0]  ;
       $("#current-score").text(userTotalScore);
       console.log(crystalValue[0]);
     });
 
     $("#crystal-red").on("click", function() {
+      gemClicks();
       userTotalScore += crystalValue[1]  ;
       $("#current-score").text(userTotalScore);
       console.log(crystalValue[1]);
     });
 
     $("#crystal-gold").on("click", function() {
+      gemClicks();
       userTotalScore += crystalValue[2]  ;
       $("#current-score").text(userTotalScore);
       console.log(crystalValue[2]);
     });
 
     $("#crystal-green").on("click", function() {
+      gemClicks();
       userTotalScore += crystalValue[3]  ;
       $("#current-score").text(userTotalScore);
       console.log(crystalValue[3]);
@@ -70,21 +74,21 @@ function gameReset() {//FUNCTION TO RESET GAME KEEPING SCORE
 
 function gemClicks() {
 
-  if (userTotalScore > computerScore){
+  if (userTotalScore > computerScore) {
       gamesLost++;
       $("#loss").text("Losses: " + gamesLost);
       gameReset();
     }
+
     else if ( userTotalScore === computerScore) {
       gamesWon++;
       $("#win").text("Wins: " + gamesWon);
       gameReset();
-      }
+    }
+
   }
 
 
-
-  
   });
 //INSIDE DOCUMENT.READY FUNCTION BUILD GAME
 //on click even for each of the four gem images
