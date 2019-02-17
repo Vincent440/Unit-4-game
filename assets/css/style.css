@@ -1,7 +1,45 @@
-h1 {
-    color:crimson;
-    font-size: 2.5rem;
-    margin: auto;
-    text-align: center;
-    padding:2rem;
+body {
+    background-image: url("../images/Crystal_Cove.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: cover;
+}
+#title {
+    background-color: #FF140D;
+    color: white;
+    padding: 1rem;
+    opacity: 0.8;
+    
+}
+#instruction-block {
+    color:#FEFFFF;
+    background-color:#9E0706; 
+    padding: 1rem;
+    opacity: 0.8;
+    margin:.5rem;
+
+}
+#computer-number {
+    background-color: #061CFF;
+    color:#FEFFFF;
+    padding: 1rem;
+}
+#win-loss-score {
+    color:#FEFFFF;
+    background-color: #020745;
+    padding: 1rem;
+}
+#score-info {
+    color:#FEFFFF;
+    background-color: #020745;
+    padding: 1rem;
+}
+#current-score {
+    color:#FEFFFF;
+    background-color:#061CFF;
+    padding: 1rem;
+}
+.crystals {
+    margin:.5rem;
 }
