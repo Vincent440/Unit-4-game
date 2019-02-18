@@ -1,10 +1,10 @@
 //          GLOBAL VARIABLES DECLARATIONS
 
-var computerScore = 0 , //computerScore = GENERATED EACH GAMEPLAY
+var computerScore =0, //computerScore = GENERATED EACH GAMEPLAY
   userTotalScore = 0 , //userTotalScore = THE SCORE ADDED UP BY CLICKING CRYSTALS
   gamesLost = 0 , //gamesLost = 0 + EACH GAME LOST
   gamesWon = 0 , //gamesWon = 0 + EACH GAME WON
-  crystalValue = [] ; //an array to store the value of each crytal based on the index
+  crystalValue = [0] ; //an array to store the value of each crytal based on the index
 
 //          FUNCTION CREATION
 //Function to generate a random number, min , max parameters for either uses
@@ -32,10 +32,24 @@ function gameReset() {//FUNCTION TO RESET GAME KEEPING SCORE
   crytalNumbers();//calls function to have each crystal assigned a new number between 1-12
   computerScoreChoice();//calls function to generate new random number 19-120
   console.log("reset game")
-
-  console.log(computerScore + " as well as " + crystalValue[0] + " " + crystalValue[1] + " " + crystalValue[2] + " " + crystalValue[3]);
+  console.log(crystalValue[0] + " " + crystalValue[1] + " " + crystalValue[2] + " " + crystalValue[3]);
+  console.log(computerScore);
 }
+function gemClicks() {
 
+  if (userTotalScore > computerScore) {
+      gamesLost++;
+      $("#loss").text("Losses: " + gamesLost);
+      gameReset();
+    }
+
+    else if ( userTotalScore === computerScore) {
+      gamesWon++;
+      $("#win").text("Wins: " + gamesWon);
+      gameReset();
+    }
+
+  }
 
   $(document).ready(function() {
 
@@ -50,7 +64,7 @@ function gameReset() {//FUNCTION TO RESET GAME KEEPING SCORE
       $("#current-score").text(userTotalScore);
       console.log(crystalValue[0]);
     });
-
+ 
     $("#crystal-red").on("click", function() {
       gemClicks();
       userTotalScore += crystalValue[1]  ;
@@ -72,21 +86,7 @@ function gameReset() {//FUNCTION TO RESET GAME KEEPING SCORE
       console.log(crystalValue[3]);
     });
 
-function gemClicks() {
 
-  if (userTotalScore > computerScore) {
-      gamesLost++;
-      $("#loss").text("Losses: " + gamesLost);
-      gameReset();
-    }
-
-    else if ( userTotalScore === computerScore) {
-      gamesWon++;
-      $("#win").text("Wins: " + gamesWon);
-      gameReset();
-    }
-
-  }
 
 
   });

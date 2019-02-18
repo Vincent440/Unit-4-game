@@ -16,9 +16,12 @@ body {
     color:#FEFFFF;
     background-color:#9E0706; 
     padding: 1rem;
-    opacity: 0.9;
+    opacity: 0.6;
     margin:.5rem;
 
+}
+#instruction-block:hover {
+    opacity:.96;
 }
 #computer-number {
     background-color: #061CFF;
@@ -42,4 +45,8 @@ body {
 }
 .crystals {
     margin:.5rem;
+    opacity:.95;
+}
+.crystals:hover {
+    opacity: 1;
 }
