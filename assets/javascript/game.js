@@ -36,10 +36,13 @@ function gemClicks(crystalValueClicked) {//function to take in crystal value on 
   if (userTotalScore > computerScore) {//first checks if the value took you over the target score
     gamesLost++;//increments losses value
     $("#loss").text("Losses: " + gamesLost);//pushes new lose to html
+    $("#userUpdates").text("Loser!")
     gameReset();//reset game to start again
+
   } else if (userTotalScore === computerScore) {//checks if user won from the value added
     gamesWon++;//increments wins
     $("#win").text("Wins: " + gamesWon);//pushes new win to html
+    $("#userUpdates").text("Winner!")
     gameReset();//resets game to start again
   } else {//takes the value and pushes it to html to display total score after each click
     $("#current-score").text(userTotalScore);

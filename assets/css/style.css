@@ -27,16 +27,25 @@ body {
     background-color: #061CFF;
     color:#FEFFFF;
     padding: 1rem;
+    height: 80px;
+}
+#userUpdates {
+    background-color: #061CFF;
+    color:#FEFFFF;
+    padding: 1rem;
+    height: 80px;
 }
 .win-loss-score {
     color:#FEFFFF;
     background-color: #020745;
     padding: 1rem;
+    height: 80px;
 }
 #score-info {
     color:#FEFFFF;
     background-color: #020745;
     padding: 1rem;
+
 }
 #current-score {
     color:#FEFFFF;
