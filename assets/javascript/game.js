@@ -1,3 +1,5 @@
+//Link to live game in portfolio page on! https://vincent440.github.io/
+
 //          GLOBAL VARIABLES DECLARATIONS
 var computerScore = 0, //computerScore = the score the user must meet
   userTotalScore = 0, //userTotalScore = the variable to store the users score during Gameplay.
