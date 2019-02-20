@@ -44,24 +44,20 @@
           <h1 id="title">Vince's Crystals Collector!</h1>
         </div>
       </div>
-      <div class="row" id="instruction-block">
-        <div class="col-12 text-left font-weight-bold">
+      <div class="row" >
+        <div class="col-12 text-left font-weight-bold"id="instruction-block">
           <p>You will be given a random number at the start of the game</p>
-          <br />
           <p>
             There are four crystals below. By clicking on a crystal you will add
             a specific amount of points to your total score.
           </p>
-          <br />
           <p>
             You win the game by matching your total score to the random number,
             you lose the game if your total score goes above the random number.
           </p>
-          <br />
           <p>
             The value of each crystal is hidden from you until you click on it.
           </p>
-          <br />
           <p>
             Each time when the game starts, the game will change the values of
             each crystal.
@@ -69,13 +65,12 @@
         </div>
       </div>
       <div class="row text-center">
-        <div class="col-3">
-          <h3 id="computer-number">TARGET SCORE#</h3>
-        </div>
         <div class="col-4 win-loss-score">
           <h4 id="win">Wins: 0</h4>
         </div>
-        <div class="col-1"></div>
+        <div class="col-4">
+          <h3 id="computer-number">TARGET SCORE#</h3>
+        </div>
         <div class="col-4 win-loss-score">
           <h4 id="loss">Losses: 0</h4>
         </div>
@@ -103,6 +98,7 @@
             id="crystal-gold"
             src="assets/images/golden.jpg"
             alt="Gold Crystal"
+            data-crystal=""
           />
         </div>
         <div class="col-3">
