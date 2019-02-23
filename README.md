@@ -1,10 +1,12 @@
 # Unit-4-game
-Week 4 Homework assignment. Using jQuery I will be making a Crystal Collector game.
-##Vince's Crystal Collector JavaScript Game! :)
+Week 4 Homework assignment.
+Using jQuery I will be making a Crystal Collector game.
+##Vince's Crystal Collector JavaScript Game
 -----------------------------------------------------------------------------
-Created by Vince Shury.2/20/19
+Created by Vince Shury. 2/20/19
 
 #Instructions
+
 You will be given a random number at the start of the game
 
 There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
@@ -17,7 +19,7 @@ The value of each crystal is hidden from you until you click on it.
 Each time when the game starts, the game will change the values of each crystal.
 
 ------------------------------------------------------------
-###Ways to Play#
+#Ways to Play
 You can either copy my repo and edit and play on your local computer
 https://github.com/Vincent440/Unit-4-game
 You can also play the game directly through github pages:
@@ -29,8 +31,8 @@ https://vincent440.github.io/
 
 ------------------------------------------------------------
 #Tools utized
-*Bootstrap
-*jQuery
+Bootstrap for mobile responsiveness and ease of design. 
+jQuery for the Document munipulation. 
 ---------------------------------------------------------------
 #things that I could improve on
 *could of used less lines of code by having a single click function that pulls the value of the crystals from the html
