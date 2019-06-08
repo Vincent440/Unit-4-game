@@ -2,7 +2,7 @@
 
 Week 4 Homework assignment.
 
-Using jQuery I will be making a Crystal Collector game.
+A Crystal Collector game using jquery & bootstrap.
 
 ## Vince's Crystal Collector JavaScript Game
 

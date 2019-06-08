@@ -10,7 +10,7 @@ function randomGen(min, max) {  //Generate a random number with min, max
   return Math.floor(Math.random() * (max - min + 1)) + min;//parameters for either uses in this program
 }
 function crytalNumbers() {
-  for (i = 0; i < 4; i++) {    //FUNCTION TO GENERATE A NUMBER BETWEEN 1-12 FOR EACH CRYSTAL
+  for (let i = 0; i < 4; i++) {    //FUNCTION TO GENERATE A NUMBER BETWEEN 1-12 FOR EACH CRYSTAL
     crystalValue.push(randomGen(1, 12)); //loop to assign a different value to each crystal.
   }
 }
