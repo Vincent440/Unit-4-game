@@ -4,58 +4,65 @@ body {
   background-attachment: fixed;
   background-position: center; 
   background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
 }
 #title {
-    background-color: #FF140D;
+    background-color: #660300;
     color: white;
     padding: 1rem;
-    opacity: 0.8;
-    
+    font-size: 5em;
+    border-radius: .25em;
 }
 #instruction-block {
     color:#FEFFFF;
     background-color:#9E0706; 
     padding: 1rem;
-    opacity: 0.6;
+    opacity: 0.75;
     margin:.5rem;
-
+    border-radius: .5em;
+    
 }
 #instruction-block:hover {
-    opacity:.96;
+    opacity:.99;
 }
 #computer-number {
-    background-color: #061CFF;
+    border-radius: .5em;
+    background-color: #0475f5;
     color:#FEFFFF;
     padding: 1rem;
     height: 80px;
 }
 #userUpdates {
-    background-color: #061CFF;
+    border-radius: .5em;
+    background-color: #0672ff;
     color:#FEFFFF;
     padding: 1rem;
     height: 80px;
 }
 .win-loss-score {
+    border-radius: .5em;
     color:#FEFFFF;
     background-color: #020745;
     padding: 1rem;
     height: 80px;
 }
 #score-info {
+    border-radius: .5em;
     color:#FEFFFF;
     background-color: #020745;
     padding: 1rem;
-
+    
 }
 #current-score {
     color:#FEFFFF;
-    background-color:#061CFF;
+    background-color:#0672ff;
     padding: 1rem;
+    border-radius: .5em;
+    
 }
 .crystals {
     margin:.5rem;
-    opacity:.95;
 }
 .crystals:hover {
-    opacity: 1;
+    padding: 1em;
 }

@@ -1,16 +1,27 @@
-# Unit-4-game
+# jQuery Crystal Game
+![Vincent440](https://img.shields.io/github/languages/top/vincent440/jquery-crystal-game)
 
-Week 4 Homework assignment.
+## Description
 
-A Crystal Collector game using jquery & bootstrap.
+A Crystal Collector game using jquery & bootstrap. Four crystal images are displayed and the user must click them to increase their score attempting to reach a target goal. if they go over they lose.
 
-## Vince's Crystal Collector JavaScript Game
+## Installation
 
----
+* git clone
+```bash
+git clone https://github.com/Vincent440/jquery-crystal-game.git
+```
+* cd into the directory
 
-Created by Vince Shury. 2/20/19
+```bash
+cd jquery-crystal-game
+```
 
-# Instructions
+* Open up the `index.html` in your browser and start playing
+
+## Usage 
+
+You can [Play here](https://vincent440.github.io/Unit-4-game/) through github pages.
 
 You will be given a random number at the start of the game
 
@@ -23,29 +34,16 @@ The value of each crystal is hidden from you until you click on it.
 
 Each time when the game starts, the game will change the values of each crystal.
 
----
+## Credits
 
-# Ways to Play
+**Vincent Shury**
+* [GitHub Profile](https://github.com/Vincent440)
 
-You can either [Fork or Clone my repo here](https://github.com/Vincent440/Unit-4-game) and edit and play on your local computer
+* [Portfolio page](https://www.vshury.com/)
 
+## License
 
-You can also [play the game HERE](https://vincent440.github.io/Unit-4-game/) directly through github pages.
-
-
-
----
-
-# Tools utized
-
-* Bootstrap for mobile responsiveness and ease of design. 
-
-* jQuery for the Document munipulation. 
+[MIT](./license) License
 
 ---
-
-### Check Out My Profile & Portfolio Here!
-
-Please go to my [Github Profile](https://github.com/Vincent440) to see my repositories.
-
-Don't forget to view my [Github Portfolio page](https://vincent440.github.io/) well you are there Thanks!
+2019 Vincent Shury
