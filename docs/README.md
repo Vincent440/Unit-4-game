@@ -34,6 +34,9 @@ The value of each crystal is hidden from you until you click on it.
 
 Each time when the game starts, the game will change the values of each crystal.
 
+**jQuery Crystal Game**
+![Screenshot of game](./screenshot_2020-06-29-js-crystal-collector.png)
+
 ## Credits
 
 ### Vincent Shury
