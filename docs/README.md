@@ -36,7 +36,8 @@ Each time when the game starts, the game will change the values of each crystal.
 
 ## Credits
 
-**Vincent Shury**
+### Vincent Shury
+*Full stack developer*
 * [GitHub Profile](https://github.com/Vincent440)
 
 * [Portfolio page](https://www.vshury.com/)
